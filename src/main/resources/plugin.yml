@@ -1,0 +1,15 @@
+name: GrayList
+version: '1.0'
+main: ru.rise0x00.graylist.GrayList
+api-version: '1.16'
+author: Rise0x00
+description: A simple plugin for adding players to whitelist with offline UUID
+commands:
+  graylist:
+    description: Manage whitelist with offline UUID
+    usage: /graylist <add|remove|list> [nick]
+    permission: graylist.use
+permissions:
+  graylist.use:
+    description: Allows to use /graylist command
+    default: op
